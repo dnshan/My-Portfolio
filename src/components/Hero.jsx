@@ -48,7 +48,8 @@ const Hero = () => {
                                 initial={{ x: 100, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 1, delay: 1.2 }}
-                                className="mx-2 w-40 h-30 rounded-2xl" src={profilepic} alt="profile picture" />
+                                style={{ width: '230px', height: '270px', borderRadius: '20px'}} // Custom dimensions
+                                src={profilepic} alt="profile picture" />
                         </div>
                     </div>
                 </div>
